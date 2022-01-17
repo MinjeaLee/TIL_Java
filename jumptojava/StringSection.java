@@ -22,9 +22,11 @@ public class StringSection {
         System.out.println("5. e.contains(\"Java\") : " + e.contains("Java"));  // String에 단어 포함 여부 반환
 
         System.out.println("6. e.replaceAll(\"Java\", \"JumpToJava\") : "+ e.replaceAll("Java", "JumpToJava"));
-
         
+        System.out.println("7. e.toUpperCase() : " + e.toUpperCase()); // 소문자로 할시 toLoweCase()
 
-        
+        String f = "A:B:C:D";
+        String[] f_result = f.split(":"); 
+        // f_result = {"A", "B", "C", "D"};
     }
 }
