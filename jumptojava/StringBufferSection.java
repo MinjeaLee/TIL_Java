@@ -1,3 +1,4 @@
+package jumptojava;
 public class StringBufferSection {
     // StringBuffer --> 문자열 추가 변경 시 사용
     public static void main(String[] args){
