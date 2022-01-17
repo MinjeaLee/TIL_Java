@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch StringSection",
+            "request": "launch",
+            "mainClass": "jumptojava.StringSection",
+            "projectName": "vs_code_java_4d6890ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch String",
+            "request": "launch",
+            "mainClass": "jumptojava.String",
+            "projectName": "vs_code_java_4d6890ea"
+        },
+        {
+            "type": "java",
             "name": "Launch gugudan_1",
             "request": "launch",
             "mainClass": "gugudan_1",
