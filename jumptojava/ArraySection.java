@@ -3,6 +3,7 @@ package jumptojava;
 public class ArraySection {
     public static void main(String[] args){
         String[] args1 = new String[7];
+        // 크기가 정해져있고 정적임
         // String[] args2 = new String[]; --> error
         args1[0] = "A";
         args1[1] = "B";
