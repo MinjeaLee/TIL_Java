@@ -1,4 +1,6 @@
 package jumptojava;
+import java.util.ArrayList;
+import java.util.Arrays;
 
 public class StringSection {
     public static void main(String[] args){
@@ -28,5 +30,10 @@ public class StringSection {
         String f = "A:B:C:D";
         String[] f_result = f.split(":"); 
         // f_result = {"A", "B", "C", "D"};
+
+        ArrayList<String> result = new ArrayList<>(Arrays.asList(f_result));
+
+        System.out.println("9. f.split(\":\") : " + result);
+
     }
 }
