@@ -5,6 +5,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 public class ListSection{
+    // list --> interface 
     public static void main(String[] args){ 
 
         ArrayList<String> ar = new ArrayList<>();
