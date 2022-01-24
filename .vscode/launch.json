@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ForEach",
+            "request": "launch",
+            "mainClass": "jumptojava.ForEach",
+            "projectName": "vs_code_java_4d6890ea"
+        },
+        {
+            "type": "java",
             "name": "Launch StringSection",
             "request": "launch",
             "mainClass": "jumptojava.StringSection",
